@@ -11,3 +11,4 @@ runMe: $(src)
 .PHONY: clean
 clean:
 	rm -f runMe
+	rm -f src/*.o 
